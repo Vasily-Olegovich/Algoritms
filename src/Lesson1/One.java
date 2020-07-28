@@ -1,6 +1,7 @@
-package one.home;
+package Lesson1;
 
 public class One {
+    // возведение числа в степень O(n)
 
     private static int power(int base, int sign) {
         int result = 1;
@@ -10,11 +11,13 @@ public class One {
         return result;
     }
 
+    // рекурсивное возведение числа в степень O(n)
     private static int pr(int base, int sign) {
         if (sign == 0) return 1;
         return pr(base,  --sign) * base;
     }
 
+    // рекурсивное возведение числа в степень с использованием четности степени O(log n)
     private static int pre(int base, int sign) {
         if (sign == 0)
             return 1;
@@ -25,6 +28,7 @@ public class One {
         }
     }
 
+    // поиск минимума в массиве O(n)
     private static int arrMin(int[] arr) {
         int result = arr[0];
         for (int i = 1; i < arr.length; i++)
@@ -34,6 +38,7 @@ public class One {
         return result;
     }
 
+    // вычислеие вреднего арифметического O(n)
     private static float arrMean(int[] arr) {
         float result = 0;
         int size = arr.length;

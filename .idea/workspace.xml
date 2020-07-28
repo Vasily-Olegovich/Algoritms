@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fba0f3d5-707f-4f6d-be8c-76dc76f3e174" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExponentiationBySquaring.java" afterDir="false" />
+    <list default="true" id="fba0f3d5-707f-4f6d-be8c-76dc76f3e174" name="Default Changelist" comment="improve PigeonHoleSort">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson1/One.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson1/One.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2/CombSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/CombSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lesson2/PigeonHoleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lesson2/PigeonHoleSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +43,68 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
+  <component name="RunManager" selected="Application.PigeonHoleSort">
+    <configuration name="CombSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2.CombSort" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2.MainClass" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="One" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson1.One" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PigeonHoleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2.PigeonHoleSort" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PigeonHoleSort" />
+        <item itemvalue="Application.CombSort" />
+        <item itemvalue="Application.MainClass" />
+        <item itemvalue="Application.One" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -50,14 +115,74 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594719113365</updated>
-      <workItem from="1594719121760" duration="3083000" />
+      <workItem from="1594719121760" duration="3445000" />
+      <workItem from="1594878899341" duration="598000" />
+      <workItem from="1594965185063" duration="1200000" />
+      <workItem from="1594966730324" duration="1199000" />
+      <workItem from="1595225355071" duration="915000" />
+      <workItem from="1595316492806" duration="3585000" />
+      <workItem from="1595570542609" duration="9564000" />
+      <workItem from="1595829454489" duration="21444000" />
+      <workItem from="1595969719273" duration="276000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="improve PigeonHoleSort" />
+    <option name="LAST_COMMIT_MESSAGE" value="improve PigeonHoleSort" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="392" y="238" key="#Notifications" timestamp="1595940544422">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state x="392" y="238" key="#Notifications/0.0.1600.1160@0.0.1600.1160" timestamp="1595940544422" />
+    <state x="425" y="174" key="CommitChangelistDialog2" timestamp="1595970130885">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state x="425" y="174" key="CommitChangelistDialog2/0.0.1600.1160@0.0.1600.1160" timestamp="1595970130885" />
+    <state width="1557" height="320" key="GridCell.Tab.0.bottom" timestamp="1595940215460">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state width="1557" height="320" key="GridCell.Tab.0.bottom/0.0.1600.1160@0.0.1600.1160" timestamp="1595940215460" />
+    <state width="1557" height="320" key="GridCell.Tab.0.center" timestamp="1595940215460">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state width="1557" height="320" key="GridCell.Tab.0.center/0.0.1600.1160@0.0.1600.1160" timestamp="1595940215460" />
+    <state width="1557" height="320" key="GridCell.Tab.0.left" timestamp="1595940215459">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state width="1557" height="320" key="GridCell.Tab.0.left/0.0.1600.1160@0.0.1600.1160" timestamp="1595940215459" />
+    <state width="1557" height="320" key="GridCell.Tab.0.right" timestamp="1595940215460">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state width="1557" height="320" key="GridCell.Tab.0.right/0.0.1600.1160@0.0.1600.1160" timestamp="1595940215460" />
+    <state width="754" height="395" key="GridCell.Tab.1.bottom" timestamp="1595843470971">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state width="754" height="395" key="GridCell.Tab.1.bottom/0.0.1600.1160@0.0.1600.1160" timestamp="1595843470971" />
+    <state width="754" height="395" key="GridCell.Tab.1.center" timestamp="1595843470971">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state width="754" height="395" key="GridCell.Tab.1.center/0.0.1600.1160@0.0.1600.1160" timestamp="1595843470971" />
+    <state width="754" height="395" key="GridCell.Tab.1.left" timestamp="1595843470971">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state width="754" height="395" key="GridCell.Tab.1.left/0.0.1600.1160@0.0.1600.1160" timestamp="1595843470971" />
+    <state width="754" height="395" key="GridCell.Tab.1.right" timestamp="1595843470971">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state width="754" height="395" key="GridCell.Tab.1.right/0.0.1600.1160@0.0.1600.1160" timestamp="1595843470971" />
+    <state x="392" y="313" key="Vcs.Push.Dialog.v2" timestamp="1595940323507">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state x="392" y="313" key="Vcs.Push.Dialog.v2/0.0.1600.1160@0.0.1600.1160" timestamp="1595940323507" />
+    <state x="496" y="404" key="com.intellij.ide.util.TipDialog" timestamp="1595829457610">
+      <screen x="0" y="0" width="1600" height="1160" />
+    </state>
+    <state x="496" y="404" key="com.intellij.ide.util.TipDialog/0.0.1600.1160@0.0.1600.1160" timestamp="1595829457610" />
     <state x="504" y="371" key="git4idea.merge.GitPullDialog" timestamp="1594720172342">
       <screen x="0" y="0" width="1600" height="1160" />
     </state>

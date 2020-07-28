@@ -1,4 +1,4 @@
-package two.online;
+package Lesson2;
 
 public class Array {
     private int arr[];
@@ -60,14 +60,38 @@ public class Array {
         arr[size++] = value;
     }
 
-//    homework
-//    boolean deleteAll(int value) { // by value
-//
-//    }
+    //    homework
+    boolean deleteAll(int value) { // by value
+        int counter = 0;
+        int indexOfValue;
+        while (true) {
+            indexOfValue = this.find(value);
+            if (indexOfValue == -1) {
+                if (counter == 0) {
+                    return false;
+                } else {
+                    size -= counter;
+                    return true;
+                }
+            } else {
+                counter++;
+                for (int i = indexOfValue; i < arr.length - 1; i++) {
+                    arr[i] = arr[i + 1];
+                }
+            }
+        }
+    }
 
-//    boolean deleteAll() { //clear array
-//
-//    }
+    boolean deleteAll() { //clear array
+        if (this != null) {
+            this.size = 0;
+            this.arr = new int[size];
+            return true;
+        } else {
+            throw new NullPointerException("WTF");
+        }
+
+    }
 
     public int find(int value) {
         for (int i = 0; i < size; i++) {
@@ -89,7 +113,7 @@ public class Array {
             if (value == arr[m]) {
                 return true;
             } else {
-                if (value < arr[m]){
+                if (value < arr[m]) {
                     r = m;
                 } else {
                     l = m + 1;
@@ -147,9 +171,12 @@ public class Array {
         StringBuilder b = new StringBuilder();
         b.append('[');
         for (int i = 0; ; i++) {
-            b.append(arr[i]);
-            if (i == size - 1)
+
+            if (i >= size - 1) {
+                //b.delete(b.length() - 2, b.length());
                 return b.append(']').toString();
+            }
+            b.append(arr[i]);
             b.append(", ");
         }
     }
